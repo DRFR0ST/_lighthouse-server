@@ -1,6 +1,6 @@
-###_lighthouse Server API with basic blog functionality
+**_lighthouse Server** with basic blog functionality
 
-Project ist still in pre-alpha state!
+**Project ist still in pre-alpha state!**
 
 ## Auth structure
 ```
@@ -12,6 +12,8 @@ Project ist still in pre-alpha state!
 ```
 
 ## Post commands
+
+Default api uri `http://localhost:3001/`
 
 # postCreate
 Create post
