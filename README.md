@@ -1,8 +1,8 @@
-####_lighthouse Server API with basic blog functionality
+###_lighthouse Server API with basic blog functionality
 
-# Project ist still in pre-alpha state!
+Project ist still in pre-alpha state!
 
-### Auth structure
+## Auth structure
 ```
 {
     "auth": [100, "login", "password"],
@@ -11,9 +11,9 @@
 }
 ```
 
-### Post commands
+## Post commands
 
-## Create post -- postCreate
+# Create post -- postCreate
 ```
 {
 	"exec": [
@@ -31,7 +31,7 @@
 	]
 }
 ```
-## Remove post -- postRemove
+# Remove post -- postRemove
 ```
 {
 	"exec": [
@@ -43,7 +43,7 @@
 	]
 }
 ```
-## List all posts -- postList
+# List all posts -- postList
 ```
 {
 	"exec": [
