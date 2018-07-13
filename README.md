@@ -2,7 +2,7 @@
 
 **Project ist still in pre-alpha state!**
 
-## Auth structure
+# Auth structure
 ```
 {
     "auth": [100, "login", "password"],
@@ -11,11 +11,11 @@
 }
 ```
 
-## Post commands
+# Post commands
 
 Default api uri `http://localhost:3001/`
 
-# postCreate
+## postCreate
 Create post
 ```
 {
@@ -34,7 +34,7 @@ Create post
 	]
 }
 ```
-# postRemove
+## postRemove
 Remove post
 ```
 {
@@ -47,7 +47,7 @@ Remove post
 	]
 }
 ```
-# postList
+## postList
 List all posts
 ```
 {
