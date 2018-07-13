@@ -6,14 +6,15 @@ Project ist still in pre-alpha state!
 ```
 {
     "auth": [100, "login", "password"],
-    "lang": "en_US",
+	"lang": "en_US",
 	"exec": [...]
 }
 ```
 
 ## Post commands
 
-# Create post -- postCreate
+# postCreate
+Create post
 ```
 {
 	"exec": [
@@ -31,7 +32,8 @@ Project ist still in pre-alpha state!
 	]
 }
 ```
-# Remove post -- postRemove
+# postRemove
+Remove post
 ```
 {
 	"exec": [
@@ -43,7 +45,8 @@ Project ist still in pre-alpha state!
 	]
 }
 ```
-# List all posts -- postList
+# postList
+List all posts
 ```
 {
 	"exec": [
