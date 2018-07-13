@@ -10,10 +10,9 @@
 	"exec": [...]
 }
 ```
+Default api uri `http://localhost:3001/`
 
 # Post commands
-
-Default api uri `http://localhost:3001/`
 
 ## postCreate
 Create post
