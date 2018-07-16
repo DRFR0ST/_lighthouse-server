@@ -5,7 +5,7 @@
 # Auth structure
 ```
 {
-    "auth": [100, "login", "password"],
+	"auth": [100, "login", "password"],
 	"lang": "en_US",
 	"exec": [...]
 }
@@ -19,17 +19,17 @@ Create post
 ```
 {
 	"exec": [
-		[
-			"postCreate",
-			[],
-			{
-				"title": "Hello World", 
-				"content": "Create light for a inteligent future.", 
-				"url": "hello-world", 
-				"media": "http://some.media/url",
-				"author": {"surname": "Test", "lastname": "Testowski", "username": "tester"}
-			}
-		]
+			[
+				"postCreate",
+				[],
+				{
+					"title": "Hello World", 
+					"content": "Create light for a inteligent future.", 
+					"url": "hello-world", 
+					"media": "http://some.media/url",
+					"author": {"surname": "Test", "lastname": "Testowski", "username": "tester"}
+				}
+			]
 	]
 }
 ```
@@ -38,11 +38,11 @@ Remove post
 ```
 {
 	"exec": [
-		[
-			"postRemove",
-			[],
-			{"url": "hello-world", id: "5b491226c7c9653e38369fa0"}
-		]
+			[
+				"postRemove",
+				[],
+				{"url": "hello-world", id: "5b491226c7c9653e38369fa0"}
+			]
 	]
 }
 ```
@@ -51,9 +51,9 @@ List all posts
 ```
 {
 	"exec": [
-		[
-			"postList"
-		]
+			[
+				"postList"
+			]
 	]
 }
 ```
